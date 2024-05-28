@@ -38,7 +38,35 @@
     <br>
     <br>
     <?php
-    echo decbin(3);
+    echo decbin(5);
+    ?>
+    <br>
+    <?php
+    echo round(21.13413213213213212, 2);
+    ?>
+    <br>
+    <?php
+    echo ceil(4.1);
+    ?>
+    <br>
+    <?php
+    echo ceil(9.999);
+    ?>
+    <br>
+    <?php
+    echo ceil(-3.14);
+    ?>
+    <br>
+    <?php
+    echo floor(-3.14);
+    ?>
+    <br>
+    <?php
+    echo floor(9.999);
+    ?>
+    <br>
+    <?php
+    echo floor(4.3);
     ?>
 
 </body>

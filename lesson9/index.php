@@ -9,7 +9,13 @@
 
 <body>
     <?php
-    $var = 0;
+    $str = '45.2';
+    $number = $str - 12;
+    echo $number;
+    ?>
+    <br>
+    <?php
+    $var = [];
     if ($var) {
         echo 'Змінна $var розглядається як true';
     } else {
@@ -29,7 +35,7 @@
     ?>
     <br>
     <?php
-    $num = 20;
+    $num = 21;
     $f = (float)($num / 2) - (int)($num / 2);
     if ($f) {
         echo 'Число непарне';

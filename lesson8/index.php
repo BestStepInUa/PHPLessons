@@ -9,7 +9,7 @@
 
 <body>
     <?php
-    $user1 = 'Ivan';
+    $user = 'Ivan';
     if (isset($user))
         echo "Змінна існує";
     else
@@ -17,7 +17,7 @@
     ?>
     <br>
     <?php
-    $str = 'аіваів';
+    $str = 'sdgsd';
     if (empty($str))
         echo 'Строка пуста';
     else
@@ -30,9 +30,9 @@
     <br>
     <?php
     if (is_int(1.25))
-        echo 'Це число';
+        echo 'Це ціле число';
     else
-        echo 'Це не число';
+        echo 'Це не ціле число';
     ?>
 </body>
 
