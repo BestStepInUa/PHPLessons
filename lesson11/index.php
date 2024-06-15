@@ -14,6 +14,8 @@
     $point1->x = 13;
     $point1->y = 2;
     echo $point1->x . '<br>';
+    $point1->x = 15;
+    echo $point1->x . '<br>';
 
     $point2 = new Point();
     $point2->x = 11;

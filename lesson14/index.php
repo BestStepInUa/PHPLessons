@@ -13,18 +13,19 @@
     //     echo "Константа NUMBER успішно створена і має значення " . NUMBER . "<br>";
     // }
     // if (!define("NUMBER", 4)) {
-    //     echo "Константа NUMBER вже створена";
+    //     echo "Константа NUMBER вже створенаі має значення " . NUMBER . "<br>";
     // }
     // if (defined("NUMBER")) {
-    //     echo "Константа NUMBER вже створена";
+    //     echo "Константа NUMBER вже створенаі має значення " . NUMBER . "<br>";
     // }
 
     // define("NUMBER", 1);
-    // echo constant("NUMBER"); // echo NUMBER;
+    // echo constant("NUMBER");
+    // echo NUMBER;
 
     // $num = mt_rand(1, 10);
     // $name = "VALUE($num)";
-    // echo "Name: {$name} Value: {$num}";
+    // echo "Name: {$name} Value: {$num}" . '<br>';
     // define($name, $num);
     // echo constant($name);
 

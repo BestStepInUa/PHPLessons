@@ -33,7 +33,10 @@
     // $second_obj->x = 5;
     // $second_obj->y = 5;
 
-    // echo "x: {$first_obj->x}, y: {$first_obj->y}"
+    // echo "x1: {$first_obj->x}, y1: {$first_obj->y}"
+    //     . '<br>';
+    // echo "x2: {$first_obj->x}, y2: {$first_obj->y}"
+    //     . '<br>';
 
     $first = 5;
     $second = &$first;

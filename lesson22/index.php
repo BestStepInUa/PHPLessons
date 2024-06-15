@@ -25,7 +25,9 @@
     $y = null;
     $y = $y ?? 11;
     echo $y;
+    echo $n;
     $n++;
+    echo $n;
     if ($n > 6) {
         goto end;
     }

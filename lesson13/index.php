@@ -13,10 +13,9 @@
 
     // $first_obj = new Point;
     // $first_obj->x = 3;
-    // $first_obj->y = 5;
+    // $first_obj->y = 3;
 
     // $second_obj = clone $first_obj;
-    // echo "x2: {$second_obj->x}, y2: {$second_obj->y}" . '<br>';
     // $second_obj->x = 5;
     // $second_obj->y = 5;
 
@@ -33,7 +32,7 @@
     $p2->x = 3;
     $p2->y = 10;
 
-    $distance = sqrt((pow(($p2->x - $p1->x), 2) + pow(($p2->y - $p1->y), 2)));
+    $distance = sqrt(pow(($p2->x - $p1->x), 2) + pow(($p2->y - $p1->y), 2));
 
     echo $distance;
     ?>

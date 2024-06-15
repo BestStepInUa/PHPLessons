@@ -38,7 +38,28 @@
     <br>
     <br>
     <?php
-    echo decbin(5);
+    echo decbin(3);
+    ?>
+    <br>
+    <?php
+    echo decoct(12);
+    ?>
+    <br>
+    <?php
+    echo dechex(15);
+    ?>
+    <br>
+    <?php
+    echo hexdec(0x539);
+    ?>
+    <br>
+    <?php
+    $base_convert = base_convert(0x539, 16, 2);
+    echo $base_convert;
+    ?>
+    <br>
+    <?php
+    echo gettype($base_convert);
     ?>
     <br>
     <?php

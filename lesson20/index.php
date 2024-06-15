@@ -9,14 +9,24 @@
 
 <body>
     <?php
-    // $num = 8;
+    // $num = 9;
     // if ($num % 2) {
-    //     echo "Число  не парне";
+    //     echo "Число {$num} не парне";
     // } else {
     //     echo "Число {$num} парне";
     // }
 
-    // $var = 1.25;
+
+
+    // class User
+    // {
+    //     public $name = 'Oleksandr';
+    //     public $age = 38;
+    // }
+
+    // $var = new User;
+    // $var->age = 39;
+    // echo "Name: {$var->name}, age: {$var->age}" . '<br>';
 
     // if (is_array($var)) {
     //     echo "Це масив";
@@ -30,7 +40,9 @@
     //     echo "Це щось інше";
     // }
 
-    $char = 'js';
+
+
+    $char = 'ts';
 
     if ($char == 'php') {
     ?>

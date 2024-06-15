@@ -9,8 +9,8 @@
 
 <body>
     <?php
-    $x = 1;
-    $y = '1';
+    $x = 4;
+    $y = '6';
 
     // echo $x < $y; // false
     // echo $x <= $y; // true
@@ -19,8 +19,8 @@
     // echo $x == $y; // true
     // echo $x != $y; // echo $x <> $y; //false
     // echo $x === $y; // false
-    // echo $x !== $y; // true
-    echo 0 == 'Hello';
+    // echo $x !== $y; //true
+    echo $x <=> $y;
 
 
     // echo 1 > 0;         // true
